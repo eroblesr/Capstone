@@ -1,0 +1,52 @@
+* {
+  overflow: auto;
+}
+.radial-gradient {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+
+  /*Fallback if gradeints don't work */
+  background: #ffeadd;
+  /*Linear gradient... */
+  background: radial-gradient(at center, #d18bfa, #9512e0);
+}
+.fonts {
+  font-family: "Agdasima", sans-serif;
+}
+.header {
+  background-color: #4b2561;
+}
+.navbar {
+  background-color: #4b2561;
+}
+img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+span {
+  color: white;
+}
+.navbar-brand,
+.navbar-text,
+.nav-link,
+svg {
+  color: white !important;
+}
+#cover-page {
+  width: 60%;
+}
+.card {
+  background-color: #9512e0;
+  overflow: hidden;
+  scroll-behavior: hidden;
+}
+.card-body {
+  overflow: hidden;
+}
+#yo {
+  height: 500px;
+  border-radius: 10%;
+}
